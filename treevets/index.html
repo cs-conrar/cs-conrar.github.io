@@ -1,70 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tree Vets</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body, html {
-      font-family: Arial, sans-serif;
-      scroll-behavior: smooth;
-    }
-
-    .hero {
-      height: 100vh;
-      background-image: url('https://source.unsplash.com/1600x900/?nature,water'); /* Replace with your image URL */
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-align: center;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      background: rgba(0, 0, 0, 0.5);
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    .content {
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .content h2 {
-      margin-bottom: 20px;
-    }
-
-    .footer {
-      background-color: #f4f4f4;
-      text-align: center;
-      padding: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TreeVets - Tree Care Services</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <section class="hero">
-    <h1>Welcome to My Website</h1>
-  </section>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">TreeVets</a>
+        </div>
+        <!-- Hidden checkbox for mobile menu toggle -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </label>
+        <ul class="nav-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-  <section class="content">
-    <h2>About This Page</h2>
-    <p>This is a simple one-page template with a hero image. You can customize it to suit your needs.</p>
-  </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay">
+            <h1>Veteran Owned and Operated Tree Care Services</h1>
+            <p>Expert Arborists Serving Quinte West and Northumberland</p>
+            <a href="#contact" class="cta-button">Get a Free Estimate</a>
+        </div>
+    </section>
 
-  <footer class="footer">
-    &copy; 2025 Your Name. All rights reserved.
-  </footer>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Blah blah blah</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Need a Tree Down?</h2>
+        <ul>
+            <li>Technical Tree Services</li>
+            <li>Tree Felling & Pruning</li>
+            <li>Stump Grinding</li>
+            <li>Technical Rigging & more</li>
+            <li>Emergency Tree Services</li>
+            <li>Free Estimates</li>
+            <li>Fully Insured</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> info@treevets.ca</p>
+        <p><strong>Area:</strong> Quinte West and Northumberland Counties, Ontario, Canada</p>
+        <p><strong>Follow us:</strong> 
+            <a href="https://www.facebook.com/people/Tree-Vets/61576383986041/" target="_blank" class="facebook-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt="Facebook" class="facebook-icon">
+            </a>
+        </p>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TreeVets | All rights reserved</p>
+    </footer>
 
 </body>
 </html>
