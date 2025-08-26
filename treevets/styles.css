@@ -67,7 +67,7 @@ body {
 /* Hero Section */
 .hero {
     #background-image: url('https://rotatechproducts.com/cdn/shop/articles/How-To-Fell-A-Tree-Safely_8925ae6f-69f1-4758-a1e6-a08417537a71.jpg?v=1738766492&width=950'); /* Replace with your image */
-    #background-image: url('./option1.jpeg'); /* Replace with your image */
+    background-image: url('./option1.jpeg'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     height: 100vh;
