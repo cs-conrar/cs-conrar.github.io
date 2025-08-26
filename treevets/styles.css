@@ -103,6 +103,14 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
 }
+.contact .cta-button {
+    background-color: #325D01;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
 
 .hero .bottom-nav {
     position: absolute;
